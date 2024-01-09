@@ -13,6 +13,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 .greetings-ny {
   color: white;
@@ -32,15 +35,14 @@ body {
 .sec-1-text {
   padding: 80px 0 0 0;
 }
-.new-yr-photo {
-  background-image: url("../images/New\ Year\ Photo.png");
-  width: 600px;
-  height: 400px;
-  align-items: center;
+.new-yr-photo img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin: 5px 10%;
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* +++++++++++++ */
@@ -68,14 +70,16 @@ body {
 /* midnight */
 .mid-night {
   background-image: url(../images/Vectorrr.png);
-  width: 1600px;
-  height: 800px;
+
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   margin-top: 140px;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 140px;
+  width: 90%;
 }
 .mid-night h2 {
   color: #fff;
@@ -102,5 +106,104 @@ body {
   font-weight: 700;
   margin: 100px;
 }
+
 /* ++++++++++ */
+
+.location {
+  text-align: center;
+  width: 90%;
+  height: 482px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: antiquewhite;
+  margin-bottom: 140px;
+  display: block;
+  padding-top: 120px;
+}
+.loca-diff-colour {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.location h4 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.btn-join {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #f00;
+  border: none;
+}
+
+/* +++++++++++ */
+
+.comming-soon {
+  display: flex;
+  width: 90%;
+  background-color: rgb(247, 247, 242);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 140px;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 140px;
+}
+.comming-left h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 500;
+}
+.comming-left H2 {
+  color: #070211;
+  font-size: 50px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.comming-centre img {
+  border-radius: 450px;
+  border: 15px solid #f00;
+  width: 400px;
+  height: 400px;
+}
+.comming-right h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.comming-right p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+.comming-right img {
+  margin-top: 50px;
+}
+.comming-left p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+/* ++++++++++++++++ */
+
+
 
